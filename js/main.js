@@ -72,6 +72,23 @@ $(function(){
         $('.t3').removeClass('active')
     });
 
+
+    $('.nav1').click(function(){
+        $('.nav1').addClass('active')
+        $('.nav2').removeClass('active')
+        $('.nav3').removeClass('active')
+    });
+    $('.nav2').click(function(){
+        $('.nav2').addClass('active')
+        $('.nav1').removeClass('active')
+        $('.nav3').removeClass('active')
+    });
+    $('.nav3').click(function(){
+        $('.nav3').addClass('active')
+        $('.nav1').removeClass('active')
+        $('.nav2').removeClass('active')
+    });
+
     //위로 올라가기 버튼
     $('.tothetop').click( function() {
         $('html, body').animate( { scrollTop : 0 }, 400 ); return false;
