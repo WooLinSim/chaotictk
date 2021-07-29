@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>환란삼국지</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image">   <!--파비콘-->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> <!--스와이퍼 css-->
+    <link rel="stylesheet" href="css/main.css" type="text/css">  <!--메인 css-->
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" /><!--제이쿼리모바일css-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> <!--제이쿼리3.6.0-->
+    <script src="https://code.jquery.com/mobile/1.5.0-rc1/jquery.mobile-1.5.0-rc1.js" integrity="sha256-ozaZ7ZptnEEuLpoEojfxBjOKXHoaQUb/DLnsTUEkIfs=" crossorigin="anonymous"></script> <!--제이쿼리모바일 1.5.0-->
+    <script src="js/main.js"></script>    <!--내 메인 JS-->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+    
+
+</head>
+<body>
+    <div data-role="page" id="main" class="main"> <!--메인 페이지-->
+        <div data-role="header">
+            <div class="header1">
+                <div class="logo">
+                    <a href="#main"><img src="img/logo.png" alt="헤더로고"></a>
+                </div>
+            </div>
+            <div class="menu_btn"> 
+                <a href="#"><img src="img/hamburger_menu.png" alt="메뉴"></a>
+            </div>
+            
+            <div class="header2"> <!--홈 메뉴 3개-->
+                <ul>
+                    <li><a href="#main">홈</a></li>
+                    <li><a href="#sub1">게임소개</a></li>
+                    <li><a href="#sub2">다운로드</a></li>
+                </ul>
+            </div> <!--홈 메뉴 3개-->
+
+            <div class="nav"> <!--햄버거 메뉴-->
+                <div class="close">
+                    <a href="#"><img src="img/close_white.png" alt="닫기"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">· 게임정보</a></li>
+                        <li><a href="#">· 게임가이드</a></li>
+                        <li><a href="#">· 명장록(도감)</a></li>
+                        <li><a href="#">· 이벤트</a></li>
+                        <li><a href="#">· 자유게시판</a></li>
+                    </ul>
+                </nav>
+            </div> <!--햄버거 메뉴-->
+        </div> <!--header 끝-->
+        <div data-role="content">
+            <!-- 슬라이드 -->
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/s1.png" alt="슬라이드1 신무장 주유"></div>
+                <div class="swiper-slide"><img src="img/s2.png" alt="슬라이드2 신각성 장비"></div>
+                <div class="swiper-slide"><img src="img/s3.png" alt="슬라이드3 신컨텐츠 국가전"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- 슬라이드 -->
+
+            <!-- 명장록(탭메뉴) -->
+            <div class="tab">
+                <a href="#"><h3>명장록</h3></a>
+                <div class="tab_title">
+                    <a href="#" class="t1 active" style="background-color: #525f84;">위</a>
+                    <a href="#" class="t2" style="background-color: #669845;">촉</a>
+                    <a href="#" class="t3" style="background-color: #a35135;">오</a>
+                    <a href="#" class="t4" style="background-color: #aeaeae;">중립</a>
+                </div>
+                <div class="tab_content">
+                    <div class="con1 allcon">
+                        <ul>
+                            <li><a href="#"><img src="img/wei1.png" alt="조조">조조</a></li>
+                            <li><a href="#"><img src="img/wei2.png" alt="사마의">사마의</a></li>
+                            <li><a href="#"><img src="img/wei3.png" alt="하후돈">하후돈</a></li>
+                            <li><a href="#"><img src="img/wei4.png" alt="전위">전위</a></li>
+                            <li><a href="#"><img src="img/wei5.png" alt="장료">장료</a></li>
+                            <li><a href="#"><img src="img/wei6.png" alt="곽가">곽가</a></li>
+                            <li><a href="#"><img src="img/wei7.png" alt="방덕">방덕</a></li>
+                            <li><a href="#"><img src="img/wei8.png" alt="등애">등애</a></li>
+                        </ul>
+                    </div>
+                    <div class="con2 allcon">
+                        <ul>
+                            <li><a href="#"><img src="img/shu1.png" alt="관우">관우</a></li>
+                            <li><a href="#"><img src="img/shu2.png" alt="장비">장비</a></li>
+                            <li><a href="#"><img src="img/shu3.png" alt="조운">조운</a></li>
+                            <li><a href="#"><img src="img/shu4.png" alt="마초">마초</a></li>
+                            <li><a href="#"><img src="img/shu5.png" alt="황충">황충</a></li>
+                            <li><a href="#"><img src="img/shu6.png" alt="제갈량">제갈량</a></li>
+                            <li><a href="#"><img src="img/shu7.png" alt="방통">방통</a></li>
+                            <li><a href="#"><img src="img/shu8.png" alt="맹획">맹획</a></li>
+                        </ul>
+                    </div>
+                    <div class="con3 allcon">
+                        <ul>
+                            <li><a href="#"><img src="img/wu1.png" alt="손책">손책</a></li>
+                            <li><a href="#"><img src="img/wu2.png" alt="손권">손권</a></li>
+                            <li><a href="#"><img src="img/wu3.png" alt="주유">주유</a></li>
+                            <li><a href="#"><img src="img/wu4.png" alt="노숙">노숙</a></li>
+                            <li><a href="#"><img src="img/wu5.png" alt="장소">장소</a></li>
+                            <li><a href="#"><img src="img/wu6.png" alt="여몽">여몽</a></li>
+                            <li><a href="#"><img src="img/wu7.png" alt="감녕">감녕</a></li>
+                            <li><a href="#"><img src="img/wu8.png" alt="육손">육손</a></li>
+                        </ul>
+                    </div>
+                    <div class="con4 allcon">
+                        <ul>
+                            <li><a href="#"><img src="img/o1.png" alt="여포">여포</a></li>
+                            <li><a href="#"><img src="img/o2.png" alt="공손찬">공손찬</a></li>
+                            <li><a href="#"><img src="img/o3.png" alt="사마휘">사마휘</a></li>
+                            <li><a href="#"><img src="img/o4.png" alt="축융">축융</a></li>
+                            <li><a href="#"><img src="img/o5.png" alt="동탁">동탁</a></li>
+                            <li><a href="#"><img src="img/o6.png" alt="초선">초선</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 명장록(탭메뉴) -->
+
+            <div class="banner1">
+                <a href="#"><img src="img/b1.png" alt="게임가이드"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/b2.png" alt="이벤트"></a>
+            </div>
+            <div class="banner3">
+                <a href="#"><img src="img/b3.png" alt="1:1문의"></a>
+            </div>
+        </div>
+        <div data-role="footer" class="footer">
+            <div class="f_logo">
+                <a href="#main"><img src="img/logo.png" alt="헤더로고"></a>
+            </div>
+            <address>서울특별시 강남구 테헤란로 57길 17, 도원빌딩 6층 (주)드림플레이게임즈 | 대표이사 심희규<br>
+                사업자등록번호: 220-88-86309 통신판매업 신고번호: 제2015-서울강남00357호<br>
+                Copyright ⓒ DREAMPLAYGAMES Inc. All Rights Reserved.</address>
+        </div>
+        <div class="main_icon">
+            <ul>
+                <li><a href="#main"><img src="img/home.png" alt="홈으로"></a></li>
+                <li><a href="#"><img src="img/playstore.png" alt="플레이스토어"></a></li>
+                <li><a href="#"><img src="img/appstore.png" alt="앱스토어"></a></li>
+                <li><a href="#" class="tothetop"><img src="img/up.png" alt="맨 위로"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--메인 페이지-->
+
+    <!--첫번째 서브 페이지-->
+    <div data-role="page" id="sub1" class="sub1">
+        <div data-role="header">
+            <div class="header1">
+                <div class="logo">
+                    <a href="#main"><img src="img/logo.png" alt="헤더로고"></a>
+                </div>
+            </div>
+            <div class="menu_btn"> 
+                <a href="#"><img src="img/hamburger_menu.png" alt="메뉴"></a>
+            </div>
+            
+            <div class="header2"> <!--홈 메뉴 3개-->
+                <ul>
+                    <li><a href="#main">홈</a></li>
+                    <li><a href="#sub1">게임소개</a></li>
+                    <li><a href="#sub2">다운로드</a></li>
+                </ul>
+            </div> <!--홈 메뉴 3개-->
+
+            <div class="nav"> <!--햄버거 메뉴-->
+                <div class="close">
+                    <a href="#"><img src="img/close_white.png" alt="닫기"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">게임정보</a></li>
+                        <li><a href="#">게임가이드</a></li>
+                        <li><a href="#">명장록(도감)</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">자유게시판</a></li>
+                    </ul>
+                </nav>
+            </div> <!--햄버거 메뉴-->
+        </div> <!--header 끝-->
+        <div class="section1">
+            <iframe width="480" height="315" src="https://www.youtube-nocookie.com/embed/I-Y9XWLiPdc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>글로벌 3000만 유저들의 선택!</h1>
+            <h2>■■ 게임특징 ■■</h2>
+            <h4>▶위풍당당 개성넘치는 삼국지 장수, 그리고 다양한 육성 시스템!<br>
+                ·80여명의 매력넘치는 삼국지 장수를 수집하고 최강의 무장으로 성장시키세요!<br>
+                ·무기진급, 스킬강화, 무장각성  등 가지각색의 육성 시스템을 경험해보세요!<br>
+                <br>
+                ▶쉬운 조작 화려한 전투 캐쥬얼 하지만 깊이있는 시스템!<br>
+                ·각 장수들의 특색있는 컨셉과 스킬을 통해 짜릿한 전투를 즐겨보세요!<br>
+                ·버튼하나로 조작하는 쉬운 스킬조작과 무장배치를 통한 전략으로 승리하세요!<br>
+                <br>
+                ▶환란 삼국지의 끊임없는 무한 컨텐츠!<br>
+                ·동료들과 함께라면 어떤 적도 두렵지 않다! 보스레이드!<br>
+                ·나라를 위해 싸우자! 전서버 동시전투 국가전!!<br>
+                ·그외 PVP, 오관참육장, 제왕의무덤, 쟁탈전 등 풍성한 컨텐츠를 만나보세요!</h4>
+            </div>
+        <div class="main_icon">
+            <ul>
+                <li><a href="#main"><img src="img/home.png" alt="홈으로"></a></li>
+                <li><a href="#"><img src="img/playstore.png" alt="플레이스토어"></a></li>
+                <li><a href="#"><img src="img/appstore.png" alt="앱스토어"></a></li>
+                <li><a href="#" class="tothetop"><img src="img/up.png" alt="맨 위로"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--첫번째 서브 페이지-->
+
+    <!--두번째 서브 페이지-->
+    <div data-role="page" id="sub2" class="sub2">
+        <div data-role="header" class="header">
+            <div class="header1">
+                <div class="logo">
+                    <a href="#main"><img src="img/logo.png" alt="헤더로고"></a>
+                </div>
+            </div>
+            <div class="menu_btn"> 
+                <a href="#"><img src="img/hamburger_menu.png" alt="메뉴"></a>
+            </div>
+            
+            <div class="header2"> <!--홈 메뉴 3개-->
+                <ul>
+                    <li><a href="#main">홈</a></li>
+                    <li><a href="#sub1">게임소개</a></li>
+                    <li><a href="#sub2">다운로드</a></li>
+                </ul>
+            </div> <!--홈 메뉴 3개-->
+
+            <div class="nav"> <!--햄버거 메뉴-->
+                <div class="close">
+                    <a href="#"><img src="img/close_white.png" alt="닫기"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">게임정보</a></li>
+                        <li><a href="#">게임가이드</a></li>
+                        <li><a href="#">명장록(도감)</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">자유게시판</a></li>
+                    </ul>
+                </nav>
+            </div> <!--햄버거 메뉴-->
+        </div> <!--header 끝-->
+        
+        <div class="section2">
+            <div class="play">
+                <a href="#"><img src="img/playstore.png" alt="플레이스토어"><p>플레이스토어</p></a>
+            </div>
+            <div class="app">
+                <a href="#"><img src="img/appstore.png" alt="앱스토어"><p>앱스토어</p></a>
+            </div>
+        </div>
+
+        <div class="main_icon">
+            <ul>
+                <li><a href="#main"><img src="img/home.png" alt="홈으로"></a></li>
+                <li><a href="#"><img src="img/playstore.png" alt="플레이스토어"></a></li>
+                <li><a href="#"><img src="img/appstore.png" alt="앱스토어"></a></li>
+                <li><a href="#" class="tothetop"><img src="img/up.png" alt="맨 위로"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--두번째 서브 페이지-->
+
+    
+</body>
+</html>
