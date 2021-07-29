@@ -37,7 +37,7 @@ img {width: 100%;}
 .header2 {
     height: 40px;
     background-color: #c91e1e;
-    margin-top: -1vw;
+    margin-top: -1.4vw;
 }
 .header2 ul {
     display: flex;
@@ -220,7 +220,21 @@ img {width: 100%;}
 
 .section1 {
     width: 100%;
-    height: 1000px;
+    height: auto;
+}
+.video-wrap {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;}
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
 .section1 h1 {
     text-align: center;
@@ -235,9 +249,10 @@ img {width: 100%;}
     line-height: 30px;
 }
 
+#sub2 {min-height: 0;}
 .section2 {
     width: 100%;
-    height: 753px;
+    height: 700px;
     background-image: url(../img/down.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -246,8 +261,8 @@ img {width: 100%;}
 .play {
     width: 12vw;
     position: absolute;
-    top: 33%;
-    left: 25%;
+    top: 20vh;
+    left: 25vw;
 }
 .play p {
     font-size: 3vw;
@@ -257,8 +272,8 @@ img {width: 100%;}
 .app {
     width: 12vw;
     position: absolute;
-    top: 33%;
-    right: 25%;
+    top: 20vh;
+    right: 25vw;
 }
 .app p {
     font-size: 3vw;
