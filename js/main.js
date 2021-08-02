@@ -88,6 +88,11 @@ $(function(){
         $('.nav1').removeClass('active')
         $('.nav2').removeClass('active')
     });
+    $('.home').click(function(){
+        $('.nav1').addClass('active')
+        $('.nav2').removeClass('active')
+        $('.nav3').removeClass('active')
+    });
 
     //위로 올라가기 버튼
     $('.tothetop').click( function() {
